@@ -18,9 +18,9 @@ Para cadastrar um parceiro é necessário utilizar o endpoint "/cadastrar" envia
 ```
 
 **2. Buscar parceiro por id:**
-Para buscar um parceiro por id é necessário utilizar o endpoint "/buscarPorId/<id>" substintuindo <id> pelo id do parceiro desejado.
+Para buscar um parceiro por id é necessário utilizar o endpoint "/buscarPorId/{id}" substintuindo {id} pelo id do parceiro desejado.
   
 **3. Buscar parceiros próximos:**
-Para buscar um parceiro próximo é necessário utilizar o endpoint "/buscarPorProximidade/<log>/<lat>" substintuindo <log>/<lat> pela sua longitude e latitude. 
+Para buscar um parceiro próximo é necessário utilizar o endpoint "/buscarPorProximidade/{log}/{lat}" substintuindo {log}/{lat} pela sua longitude e latitude. 
 
 
