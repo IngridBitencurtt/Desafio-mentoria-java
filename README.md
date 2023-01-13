@@ -1,9 +1,9 @@
 # mentoria-Java
 
-##Projeto Zé delivery (mentoria) 
+*Projeto Zé delivery (mentoria)* 
 
 
-#1. Cadastrar Parceiro:
+*1. Cadastrar Parceiro:*
 Para cadastrar um parceiro é necessário utilizar o endpoint "/cadastrar" enviando um Json como o abaixo
 
 ```
@@ -17,10 +17,10 @@ Para cadastrar um parceiro é necessário utilizar o endpoint "/cadastrar" envia
 }
 ```
 
-#2. Buscar parceiro por id:
+*2. Buscar parceiro por id:*
 Para buscar um parceiro por id é necessário utilizar o endpoint "/buscarPorId/<id>" substintuindo <id> pelo id do parceiro desejado.
   
-#3.Bucas parceiros próximos:
+*3.Bucas parceiros próximos:*
 Para buscar um parceiro próximo é necessário utilizar o endpoint "/buscarPorProximidade/<log>/<lat>" substintuindo <log>/<lat> pela sua longitude e latitude. 
 
 
